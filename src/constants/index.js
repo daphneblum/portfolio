@@ -19,9 +19,15 @@ import {
   starbucks,
   tesla,
   shopify,
+  apple,
+  lspace,
+  wecode,
+  mlt,
   carrent,
   jobit,
   tripguide,
+  arcaneledger,
+  questlog,
   threejs,
 } from "../assets";
 
@@ -80,10 +86,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -92,10 +98,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -104,10 +110,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,
@@ -118,7 +124,7 @@ const experiences = [
   {
     title: "Career Preparation Fellow",
     company_name: "Management Leadership for Tomorrow",
-    icon: starbucks, // FIXME: find mlt logo
+    icon: mlt, 
     iconBg: "#383E56",
     date: "January 2026 - Present",
     points: [
@@ -130,7 +136,7 @@ const experiences = [
   {
     title: "Research Lead",
     company_name: "LSPACE NASA Proposal Writing and Evaluation Experience",
-    icon: tesla, // FIXME: find lspace logo
+    icon: lspace, 
     iconBg: "#E6DEDD",
     date: "Sep 2025 - Dec 2025",
     points: [
@@ -141,7 +147,7 @@ const experiences = [
   {
     title: "Tech Fellow",
     company_name: "Harvard WECode Tech Conference",
-    icon: shopify, // FIXME: find wecode logo
+    icon: wecode, 
     iconBg: "#383E56",
     date: "Nov 2025 - Feb 2025",
     points: [
@@ -152,7 +158,7 @@ const experiences = [
   {
     title: "Sales Specialist",
     company_name: "Apple",
-    icon: meta, // FIXME: find apple logo
+    icon: apple, 
     iconBg: "#E6DEDD",
     date: "Apr 2022 - Apr 2023",
     points: [
@@ -165,33 +171,33 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Daphne is one of those rare individuals who elevates every team she joins.",
+    name: "Sabrina Ornelas",
+    designation: "Lead Systems Engineer",
+    company: "LSPACE NASA Proposal Team",
+    image: "/company/lspace.jpeg",
   },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //   name: "Chris Brown",
+  //   designation: "COO",
+  //   company: "DEF Corp",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
   {
-    name: "Trend Market Disvoery Agent",
+    name: "Trend Market Discovery Agent",
     description:
       "An autonomous AI agent that continuously scans online sources to identify emerging market trends and turns raw web data into clear, structured insights.",
     tags: [
@@ -212,7 +218,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Ultrasonic Scanning Sensor with Radar-Style Visualization",
+    name: "Ultrasonic Scanning Sensor with Radar",
     description:
       "A real-time radar-style system that scans its surroundings using ultrasonic sensing and visualizes distance data as a live sweeping display.",
     tags: [
@@ -233,16 +239,16 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Arcane Ledger and Quest Log",
+    name: "Arcane Ledger",
     description:
-      "A retro fantasy-themed web app suite that transforms everyday tools into immersive, game-like experiences with rich interactive visuals.",
+      "A fantasy-themed calculator that transforms arithmetic into spellcasting.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
@@ -250,8 +256,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: arcaneledger,
+    source_code_link: "https://github.com/daphneblum/arcane-ledger",
+  },
+  {
+    name: "Quest Log",
+    description:
+      "A fantasy-themed productivity app that transforms your to-do list into an adventure. Instead of checking off chores, you complete quests.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: questlog,
+    source_code_link: "https://github.com/daphneblum/quest-log",
   },
 ];
 

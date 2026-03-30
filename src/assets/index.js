@@ -26,7 +26,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import apple from "./company/apple.jpeg";
+import lspace from "./company/lspace.jpeg";
+import mlt from "./company/mlt.jpeg";
+import wecode from "./company/wecode.jpeg";
 
+import arcaneledger from "./arcaneledger.png";
+import questlog from "./questlog.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -58,6 +64,12 @@ export {
   shopify,
   starbucks,
   tesla,
+  apple,
+  lspace,
+  mlt,
+  wecode,
+  arcaneledger,
+  questlog,
   carrent,
   jobit,
   tripguide,
