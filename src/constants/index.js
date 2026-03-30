@@ -15,6 +15,7 @@ import {
   git,
   figma,
   docker,
+  portfolio,
   meta,
   starbucks,
   tesla,
@@ -216,6 +217,27 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/",
+  },
+  {
+  name: "Personal Portfolio Website",
+    description:
+      "A 3D interactive developer portfolio featuring animated scenes and a working contact form.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/daphneblum/portfolio",
   },
   {
     name: "Ultrasonic Scanning Sensor with Radar",
