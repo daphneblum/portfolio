@@ -5,7 +5,7 @@ An interactive 3D developer portfolio built with React and Three.js, featuring a
 ---
 
 ## 📸 Screenshots
-![base version of site](src/assets/baseportfolio.png)
+![base version of site](src/assets/origportfolio.png)
 ![changes made to lighting](src/assets/portfolio.png)
 
 
