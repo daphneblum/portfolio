@@ -154,6 +154,43 @@ body {
   transform: translateZ(0);
 }
 
+.magic-card {
+  position: relative;
+  overflow: hidden; 
+  border-radius: 20px;
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+  padding: 3px;
+  z-index: 1;
+  width: 360px !important;
+  max-width: 100%;
+}
+
+.magic-card::before {
+  content: "";
+  position: absolute;
+  width: 150%; 
+  height: 150%;
+  background: conic-gradient(
+    transparent 0deg,
+    rgba(145, 94, 255, 0.2) 10deg,
+    #915eff 40deg,
+    #ff66b2 60deg,
+    transparent 90deg
+  );
+  animation: rotateLight 5s linear infinite;
+  z-index: -1;
+  padding: 3px;
+  opacity: 1; 
+  transition: opacity 0.5s ease;
+}
+
+@keyframes rotateLight {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
