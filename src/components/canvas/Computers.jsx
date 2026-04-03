@@ -131,14 +131,16 @@ const ComputersCanvas = () => {
           minPolarAngle={Math.PI / 2}
         />
         <Computers isMobile={isMobile} />
-        <EffectComposer>
-          <Bloom
-            luminanceThreshold={0}
-            luminanceSmoothing={0.9}
-            intensity={1.5}
-            mipmapBlur
-          />
-        </EffectComposer>
+        {!isMobile && (
+          <EffectComposer>
+            <Bloom
+              luminanceThreshold={0}
+              luminanceSmoothing={0.9}
+              intensity={1.5}
+              mipmapBlur
+            />
+          </EffectComposer>
+        )}
       </Suspense>
 
       <Preload all />
