@@ -52,7 +52,7 @@ const Computers = ({ isMobile }) => {
 
   return (
     <>
-      {/* Lights inside the component (you can move these to Canvas if you want to clean up) */}
+      {/* Lights inside the component */}
       {/* <hemisphereLight intensity={0.5} groundColor="black" />
       <pointLight position={[-15, 10, -5]} intensity={1.5} color="#ff66b2" />
       <pointLight position={[15, 8, -5]} intensity={1.0} color="#00ffff" /> */}
@@ -108,8 +108,8 @@ const ComputersCanvas = () => {
         <rectAreaLight
           width={10}
           height={10}
-          intensity={30} // RectAreaLight intensity works differently (lower numbers = strong)
-          color="#ff66b2"
+          intensity={15} // RectAreaLight intensity works differently (lower numbers = strong)
+          color="#e88ac2"
           position={[-15, 5, 5]}
           lookAt={[0, 0, 0]} // Points the light at the center of the desk
         />
@@ -119,7 +119,7 @@ const ComputersCanvas = () => {
           width={10}
           height={10}
           intensity={40}
-          color="#00ffff"
+          color="#7fd4ff"
           position={[15, 5, 5]}
           lookAt={[0, 0, 0]}
         />

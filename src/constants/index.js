@@ -1,5 +1,6 @@
 import {
   mobile,
+  placeholder,
   backend,
   creator,
   web,
@@ -215,8 +216,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: placeholder,
+    source_code_link: "https://github.com/daphneblum",
   },
   {
   name: "Personal Portfolio Website",
@@ -257,8 +258,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: placeholder,
+    source_code_link: "https://github.com/daphneblum",
   },
   {
     name: "Arcane Ledger",

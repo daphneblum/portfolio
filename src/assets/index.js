@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import mylogo from "./mylogo.png";
+import placeholder from "./placeholder.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -44,6 +45,7 @@ export {
   mylogo,
   backend,
   creator,
+  placeholder,
   mobile,
   web,
   github,
