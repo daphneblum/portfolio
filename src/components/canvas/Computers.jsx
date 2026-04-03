@@ -97,10 +97,11 @@ const ComputersCanvas = () => {
   }, [])
   return (
     <Canvas
-    frameLoop="always"  
+    frameloop="always"  
+    dpr={isMobile ? 1 : [1,2]}
     shadows
     camera={{ position: [20, 3, 5], fov: 25 }}
-    gl={{ toneMappingExposure: 1 }}
+    gl={{ toneMappingExposure: 1, powerPreference: "high-performance" }}
     >
       <Suspense fallback={<CanvasLoader />}>
       <ambientLight intensity={0.1} />
