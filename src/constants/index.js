@@ -203,7 +203,7 @@ const projects = [
   {
     name: "Pelagia Ocean Probe Simulator",
     description:
-      "A web app that simulates a deep-sea research console for supervising an autonomous ocean probe.",
+      "A web app that simulates a deep-sea research console for supervising an autonomous ocean probe. Built for the Codex Creator Challenge.",
     tags: [
       {
         name: "react",
