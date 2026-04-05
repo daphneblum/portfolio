@@ -234,7 +234,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "",
+        name: "n8n",
         color: "pink-text-gradient",
       },
     ],
@@ -268,15 +268,15 @@ const projects = [
       "A real-time radar-style system that scans its surroundings using ultrasonic sensing and visualizes distance data as a live sweeping display.",
     tags: [
       {
-        name: "react",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Arduino",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "",
         color: "pink-text-gradient",
       },
     ],
