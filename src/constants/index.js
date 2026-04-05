@@ -16,6 +16,7 @@ import {
   git,
   figma,
   docker,
+  trendagent,
   portfolio,
   meta,
   starbucks,
@@ -238,8 +239,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: placeholder,
-    source_code_link: "https://github.com/daphneblum",
+    image: trendagent,
+    source_code_link: "https://github.com/daphneblum/market-discovery-agent",
   },
   {
   name: "Personal Portfolio Website",

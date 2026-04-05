@@ -8,7 +8,8 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import mylogo from "./mylogo.png";
 import placeholder from "./placeholder.png";
-import pelagia from "./pelagia.png"
+import pelagia from "./pelagia.png";
+import trendagent from "./trendagent.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -49,6 +50,7 @@ export {
   placeholder,
   mobile,
   web,
+  trendagent,
   github,
   menu,
   close,
