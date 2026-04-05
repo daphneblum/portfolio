@@ -21,6 +21,7 @@ import {
   starbucks,
   tesla,
   shopify,
+  pelagia,
   apple,
   lspace,
   wecode,
@@ -199,20 +200,41 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Trend Market Discovery Agent",
+    name: "Pelagia Ocean Probe Simulator",
     description:
-      "An autonomous AI agent that continuously scans online sources to identify emerging market trends and turns raw web data into clear, structured insights.",
+      "A web app that simulates a deep-sea research console for supervising an autonomous ocean probe.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pelagia,
+    source_code_link: "https://github.com/daphneblum/ocean-probe-sim-pelagia",
+  },
+  {
+    name: "Trend Market Discovery Agent",
+    description:
+      "An autonomous AI agent that continuously scans online sources to identify emerging market trends and turns raw web data into clear, structured insights.",
+    tags: [
+      {
+        name: "docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JSON",
+        color: "green-text-gradient",
+      },
+      {
+        name: "",
         color: "pink-text-gradient",
       },
     ],
