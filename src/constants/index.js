@@ -31,6 +31,7 @@ import {
   jobit,
   tripguide,
   arcaneledger,
+  music,
   questlog,
   threejs,
 } from "../assets";
@@ -200,6 +201,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Music Recommender",
+    description:
+      "A web app that simulates a deep-sea research console for supervising an autonomous ocean probe. Built as a final project for the CodePath AI110 course.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Google Gemini API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kaggle Datasets",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: music,
+    source_code_link: "https://github.com/daphneblum/applied-ai-system-project",
+  },
   {
     name: "Pelagia Ocean Probe Simulator",
     description:
