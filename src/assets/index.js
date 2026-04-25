@@ -10,6 +10,7 @@ import mylogo from "./mylogo.png";
 import placeholder from "./placeholder.png";
 import pelagia from "./pelagia.png";
 import trendagent from "./trendagent.png";
+import music from "./music.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -74,6 +75,7 @@ export {
   apple,
   lspace,
   mlt,
+  music,
   wecode,
   pelagia,
   arcaneledger,
