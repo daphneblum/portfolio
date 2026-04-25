@@ -204,7 +204,7 @@ const projects = [
   {
     name: "Music Recommender",
     description:
-      "A web app that simulates a deep-sea research console for supervising an autonomous ocean probe. Built as a final project for the CodePath AI110 course.",
+      "A RAG-powered music recommender that returns personalized song recommendations when users describe a mood or activity via a Streamlit UI. Built as a final project for the CodePath AI110 course.",
     tags: [
       {
         name: "Python",
