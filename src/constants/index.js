@@ -18,6 +18,7 @@ import {
   docker,
   trendagent,
   portfolio,
+  swing,
   meta,
   starbucks,
   tesla,
@@ -305,6 +306,27 @@ const projects = [
     ],
     image: placeholder,
     source_code_link: "https://github.com/daphneblum",
+  },
+  {
+    name: "Swing Ball Event Page",
+    description:
+      "An event webpage for a  fictional swing dance social, featuring interactive event details. Built for the CodePath Web101 course.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: swing,
+    source_code_link: "https://github.com/daphneblum/swing-ball",
   },
   {
     name: "Arcane Ledger",

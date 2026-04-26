@@ -11,6 +11,7 @@ import placeholder from "./placeholder.png";
 import pelagia from "./pelagia.png";
 import trendagent from "./trendagent.png";
 import music from "./music.png";
+import swing from "./swing.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -80,6 +81,7 @@ export {
   pelagia,
   arcaneledger,
   questlog,
+  swing,
   carrent,
   jobit,
   portfolio,
