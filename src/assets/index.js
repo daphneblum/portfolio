@@ -12,6 +12,7 @@ import pelagia from "./pelagia.png";
 import trendagent from "./trendagent.png";
 import music from "./music.png";
 import swing from "./swing.png";
+import btt from "./btt.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -45,6 +46,7 @@ import portfolio from "./portfolio.png";
 import origportfolio from "./origportfolio.png";
 
 export {
+  btt,
   logo,
   mylogo,
   backend,

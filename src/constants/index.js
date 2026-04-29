@@ -1,5 +1,6 @@
 import {
   mobile,
+  btt,
   placeholder,
   backend,
   creator,
@@ -128,6 +129,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "AI/ML Fellow",
+    company_name: "Break Through Tech",
+    icon: btt, 
+    iconBg: "#383E56",
+    date: "April 2026 - Present",
+    points: [
+      "Selected from a competitive pool of 4,000+ applicants for a year-long fellowship in applied Machine Learning and Artificial Intelligence",
+      "Completing a Cornell University ML certification covering data preprocessing, model selection, training,optimization, and deployment using Scikit-learn, Keras, NumPy, and Pandas",
+      "Building industry-related AI projects in collaboration with industry advisors",
+    ],
+  },
+  {
     title: "Career Preparation Fellow",
     company_name: "Management Leadership for Tomorrow",
     icon: mlt, 
@@ -140,17 +153,6 @@ const experiences = [
     ],
   },
   {
-    title: "Research Lead",
-    company_name: "LSPACE NASA Proposal Writing and Evaluation Experience",
-    icon: lspace, 
-    iconBg: "#E6DEDD",
-    date: "Sep 2025 - Dec 2025",
-    points: [
-      "Led project research for a 10-member team in developing a NASA mission proposal, coordinating 6 deliverables, and maintaining the  project timeline over a 4-month period",
-      "Evaluated 3 peer proposals using NASA scoring rubrics, providing structured, detailed feedback that influenced proposal selections",
-    ],
-  },
-  {
     title: "Tech Fellow",
     company_name: "Harvard WECode Tech Conference",
     icon: wecode, 
@@ -159,6 +161,17 @@ const experiences = [
     points: [
       "Conducted structured outreach through social media, direct messaging, and school networks, engaging clubs, faculty members, and student organizations across multiple campuses",
       "Recruited 5 student attendees and made 20 academic and professional contacts for the conference",
+    ],
+  },
+  {
+    title: "Research Lead",
+    company_name: "LSPACE NASA Proposal Writing and Evaluation Experience",
+    icon: lspace, 
+    iconBg: "#E6DEDD",
+    date: "Sep 2025 - Dec 2025",
+    points: [
+      "Led project research for a 10-member team in developing a NASA mission proposal, coordinating 6 deliverables, and maintaining the  project timeline over a 4-month period",
+      "Evaluated 3 peer proposals using NASA scoring rubrics, providing structured, detailed feedback that influenced proposal selections",
     ],
   },
   {
