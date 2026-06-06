@@ -44,6 +44,11 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import portfolio from "./portfolio.png";
 import origportfolio from "./origportfolio.png";
+import noodles from "./noodles.png";
+import liminal from "./liminal.png";
+import synthwave from "./synthwave.png";
+import particle from "./particle.jpg";
+import stairs from "./stairs.png";
 
 export {
   btt,
@@ -66,6 +71,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  stairs,
   reactjs,
   redux,
   tailwind,
@@ -89,4 +95,8 @@ export {
   portfolio,
   origportfolio,
   tripguide,
+  noodles,
+  liminal,
+  synthwave,
+  particle,
 };

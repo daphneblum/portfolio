@@ -16,6 +16,7 @@ import {
   mongodb,
   git,
   figma,
+  stairs,
   docker,
   trendagent,
   portfolio,
@@ -36,6 +37,10 @@ import {
   music,
   questlog,
   threejs,
+  noodles,
+  liminal,
+  synthwave,
+  particle,
 } from "../assets";
 
 export const navLinks = [
@@ -385,4 +390,76 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const arts = [
+  {
+    name: "",
+    description:
+      "Modeled, rendered, and animated in Blender, post-processed in Davinci Resolve.",
+    tags: [
+      {
+        name: "Blender",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Davinci Resolve",
+        color: "green-text-gradient",
+      },
+    ],
+    image: noodles,
+    animation_src: "https://res.cloudinary.com/dfsokw5no/video/upload/v1780704342/noodles_gmoti7.mp4",
+  },
+  {
+    name: "",
+    description:
+      "Modeled, rendered, and animated in Blender.",
+    tags: [
+      {
+        name: "Blender",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: stairs,
+    animation_src:  "https://res.cloudinary.com/dfsokw5no/video/upload/v1780705037/stairsanim_h1adr3.mp4",
+  },
+  {
+    name: "",
+    description:
+      "Modeled, rendered, and animated in Blender.",
+    tags: [
+      {
+        name: "Blender",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: synthwave,
+    animation_src: "https://res.cloudinary.com/dfsokw5no/video/upload/v1780705046/synthwave_lcwymo.mp4",
+  },
+  {
+    name: "",
+    description:
+      "Modeled, rendered, and animated in Blender.",
+    tags: [
+      {
+        name: "Blender",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: liminal,
+    animation_src: "https://res.cloudinary.com/dfsokw5no/video/upload/v1780704409/liminal_uw5rvn.mp4",
+  },
+  {
+  name: "",
+    description:
+      "Made in TouchDesigner.",
+    tags: [
+      {
+        name: "TouchDesigner",
+        color: "blue-text-gradient, post-processed in Davinci Resolve",
+      },
+    ],
+    image: particle,
+    animation_src: "https://res.cloudinary.com/dfsokw5no/video/upload/v1780704316/particles_zwddrk.mp4",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, arts };
