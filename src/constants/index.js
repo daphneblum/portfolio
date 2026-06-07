@@ -41,6 +41,7 @@ import {
   liminal,
   synthwave,
   particle,
+  web102_gif
 } from "../assets";
 
 export const navLinks = [
@@ -220,6 +221,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Creative Coding Resource Hub",
+    description:
+      "An interactive web ecosystem curated for aspiring creative technologists, featuring a responsive glassmorphic UI layout. Implements custom dynamic physics where background elements dynamically react to and repel from user mouse movements to enhance digital immersion. Built as a project for the CodePath Web102 course.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "interactive design",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: web102_gif,
+    source_code_link: "https://github.com/daphneblum/community-board",
+  },
   {
     name: "Music Recommender",
     description:

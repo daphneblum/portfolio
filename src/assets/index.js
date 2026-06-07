@@ -49,6 +49,7 @@ import liminal from "./liminal.png";
 import synthwave from "./synthwave.png";
 import particle from "./particle.jpg";
 import stairs from "./stairs.png";
+import web102_gif from "./web102_gif.gif";
 
 export {
   btt,
@@ -99,4 +100,5 @@ export {
   liminal,
   synthwave,
   particle,
+  web102_gif
 };
