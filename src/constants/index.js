@@ -414,9 +414,9 @@ const projects = [
 
 const arts = [
   {
-    name: "",
+    name: "Bad Service",
     description:
-      "Modeled, rendered, and animated in Blender, post-processed in Davinci Resolve.",
+      "I don't know, man, I just work here. A short animation about connection and apathy. Made in Blender, post-processed in DaVinci Resolve.",
     tags: [
       {
         name: "Blender",
@@ -431,9 +431,9 @@ const arts = [
     animation_src: "https://res.cloudinary.com/dfsokw5no/video/upload/v1780704342/noodles_gmoti7.mp4",
   },
   {
-    name: "",
+    name: "Only Way to Go is Up",
     description:
-      "Modeled, rendered, and animated in Blender.",
+      "A project that started as a liminal hallway and became a stairway to heaven. Modeled, rendered, and animated in Blender.",
     tags: [
       {
         name: "Blender",
@@ -444,9 +444,9 @@ const arts = [
     animation_src:  "https://res.cloudinary.com/dfsokw5no/video/upload/v1780705037/stairsanim_h1adr3.mp4",
   },
   {
-    name: "",
+    name: "Synthwave",
     description:
-      "Modeled, rendered, and animated in Blender.",
+      "A lesson in geometry nodes. Modeled, rendered, and animated in Blender.",
     tags: [
       {
         name: "Blender",
@@ -457,9 +457,9 @@ const arts = [
     animation_src: "https://res.cloudinary.com/dfsokw5no/video/upload/v1780705046/synthwave_lcwymo.mp4",
   },
   {
-    name: "",
+    name: "The Pool Room",
     description:
-      "Modeled, rendered, and animated in Blender.",
+      "A short walk through a liminal space. Modeled, rendered, and animated in Blender.",
     tags: [
       {
         name: "Blender",
@@ -470,13 +470,17 @@ const arts = [
     animation_src: "https://res.cloudinary.com/dfsokw5no/video/upload/v1780704409/liminal_uw5rvn.mp4",
   },
   {
-  name: "",
+  name: "Particle Nebula",
     description:
-      "Made in TouchDesigner.",
+      "My first project in TouchDesigner, exploring particle systems. Made in TouchDesigner, post-processed in DaVinci Resolve.",
     tags: [
       {
         name: "TouchDesigner",
-        color: "blue-text-gradient, post-processed in Davinci Resolve",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Davinci Resolve",
+        color: "green-text-gradient",
       },
     ],
     image: particle,

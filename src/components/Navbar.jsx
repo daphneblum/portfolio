@@ -21,7 +21,7 @@ const Navbar = () => {
         }}
         >
           <img src={mylogo} alt='logo' className='w-16 h-16 rounded-full object-contain'/> 
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Daphne Blum &nbsp; <span className='sm:block hidden'>| Computer Science Student</span>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Daphne Blum &nbsp; <span className='sm:block hidden'>| Creative Developer in Progress </span>
           </p>
           </Link>
           <ul className="list-none hidden sm:flex 
