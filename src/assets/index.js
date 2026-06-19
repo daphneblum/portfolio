@@ -50,8 +50,11 @@ import synthwave from "./synthwave.png";
 import particle from "./particle.jpg";
 import stairs from "./stairs.png";
 import web102_gif from "./web102_gif.gif";
+import flashcards from "./flashcards.gif";
+import sonar from "./sonar.jpeg";
 
 export {
+  sonar,
   btt,
   logo,
   mylogo,
@@ -100,5 +103,6 @@ export {
   liminal,
   synthwave,
   particle,
-  web102_gif
+  web102_gif,
+  flashcards
 };

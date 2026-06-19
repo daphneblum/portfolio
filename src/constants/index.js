@@ -41,7 +41,9 @@ import {
   liminal,
   synthwave,
   particle,
-  web102_gif
+  web102_gif,
+  flashcards,
+  sonar,
 } from "../assets";
 
 export const navLinks = [
@@ -285,6 +287,27 @@ const projects = [
     source_code_link: "https://github.com/daphneblum/ocean-probe-sim-pelagia",
   },
   {
+    name: "CodePath Web102 Project Hub",
+    description:
+      "A mini-portfolio in progress of CodePath's Web102 projects set aboard a futuristic spaceship bridge. Currently features an interactive flashcard application. Users can select a deck, flip cards to reveal answers, view accompanying images, and navigate through a randomized set of flashcards. The experience is presented through a custom sci-fi interface built with React Three Fiber and a fully integrated 3D environment.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Blender",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: flashcards,
+    source_code_link: "https://github.com/daphneblum/Web102Hub",
+  },
+  {
     name: "Trend Market Discovery Agent",
     description:
       "An autonomous AI agent that continuously scans online sources to identify emerging market trends and turns raw web data into clear, structured insights.",
@@ -344,7 +367,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: placeholder,
+    image: sonar,
     source_code_link: "https://github.com/daphneblum",
   },
   {
