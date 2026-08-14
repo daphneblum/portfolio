@@ -36,6 +36,7 @@ import apple from "./company/apple.jpeg";
 import lspace from "./company/lspace.jpeg";
 import mlt from "./company/mlt.jpeg";
 import wecode from "./company/wecode.jpeg";
+import loph from "./company/loph.png";
 
 import arcaneledger from "./arcaneledger.png";
 import questlog from "./questlog.png";
@@ -52,7 +53,7 @@ import stairs from "./stairs.png";
 import web102_gif from "./web102_gif.gif";
 import flashcards from "./flashcards.gif";
 import sonar from "./sonar.jpeg";
-import loph from "./loph.png";
+
 
 export {
   sonar,
