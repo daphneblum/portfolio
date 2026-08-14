@@ -44,6 +44,7 @@ import {
   web102_gif,
   flashcards,
   loph,
+  synths,
   sonar,
 } from "../assets";
 
@@ -152,7 +153,7 @@ const experiences = [
     title: "AI/ML Fellow",
     company_name: "Break Through Tech",
     icon: btt, 
-    iconBg: "#383E56",
+    iconBg: "#002d45",
     date: "April 2026 - Present",
     points: [
       "Selected from a competitive pool of 4,000+ applicants for a year-long fellowship in applied Machine Learning and Artificial Intelligence",
@@ -164,7 +165,7 @@ const experiences = [
     title: "Career Preparation Fellow",
     company_name: "Management Leadership for Tomorrow",
     icon: mlt, 
-    iconBg: "#383E56",
+    iconBg: "#ffffffff",
     date: "January 2026 - Present",
     points: [
       "Accepted into a selective 18-month professional development program that accelerates the career growth of emerging leaders through structured coaching, mentorship, and targeted skill-building.",
@@ -176,7 +177,7 @@ const experiences = [
     title: "Tech Fellow",
     company_name: "Harvard WECode Tech Conference",
     icon: wecode, 
-    iconBg: "#383E56",
+    iconBg: "#313131",
     date: "Nov 2025 - Feb 2025",
     points: [
       "Conducted structured outreach through social media, direct messaging, and school networks, engaging clubs, faculty members, and student organizations across multiple campuses",
@@ -187,7 +188,7 @@ const experiences = [
     title: "Research Lead",
     company_name: "LSPACE NASA Proposal Writing and Evaluation Experience",
     icon: lspace, 
-    iconBg: "#E6DEDD",
+    iconBg: "#ffffffff",
     date: "Sep 2025 - Dec 2025",
     points: [
       "Led project research for a 10-member team in developing a NASA mission proposal, coordinating 6 deliverables, and maintaining the  project timeline over a 4-month period",
@@ -198,7 +199,7 @@ const experiences = [
     title: "Sales Specialist",
     company_name: "Apple",
     icon: apple, 
-    iconBg: "#E6DEDD",
+    iconBg: "#ffffffff",
     date: "Apr 2022 - Apr 2023",
     points: [
       "Provided technical troubleshooting and product support across hardware, software, and account issues, consistently exceeding service metrics.",
@@ -235,6 +236,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Synthwave Bounties",
+    description:
+      "A Synthwave-themed site inspired by retrofuturism and Yahoo Answers. Post and answer questions, and select the best answers. A work in progress.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Blender",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: synths,
+    source_code_link: "https://github.com/daphneblum/synthwave-bounties",
+  },
   {
     name: "Creative Coding Resource Hub",
     description:

@@ -43,7 +43,8 @@ const About = () => {
       >
         I’m a computer science student focused on building interactive, visually driven applications. 
         I enjoy turning ideas into projects that feel engaging, playful, and functional at the same time. 
-        Currently, I’m exploring web development and AI through hands-on projects.
+        Currently, I’m exploring web development and AI through hands-on projects. I'm also gaining experience and education in 
+        healthcare. 
       </motion.p>
 
       <div className = "mt-20 flex flex-wrap justify-center gap-10">

@@ -53,6 +53,7 @@ import stairs from "./stairs.png";
 import web102_gif from "./web102_gif.gif";
 import flashcards from "./flashcards.gif";
 import sonar from "./sonar.jpeg";
+import synths from "./synths.gif";
 
 
 export {
@@ -69,6 +70,7 @@ export {
   trendagent,
   github,
   menu,
+  synths,
   close,
   css,
   docker,
