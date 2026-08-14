@@ -52,9 +52,11 @@ import stairs from "./stairs.png";
 import web102_gif from "./web102_gif.gif";
 import flashcards from "./flashcards.gif";
 import sonar from "./sonar.jpeg";
+import loph from "./loph.png";
 
 export {
   sonar,
+  loph,
   btt,
   logo,
   mylogo,

@@ -43,6 +43,7 @@ import {
   particle,
   web102_gif,
   flashcards,
+  loph,
   sonar,
 } from "../assets";
 
@@ -136,6 +137,17 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Nutrition Educator II",
+    company_name: "Louisiana Office of Public Health",
+    icon: loph, 
+    iconBg: "#ffffffff",
+    date: "August 2026 - Present",
+    points: [
+      "Selected as founding member of a newly launched WIC mobile health unit, delivering clinical nutrition services directly to underserved populations across the region, including rural communities, hospital sites, and unhoused individuals at community outreach locations",
+      "Perform hands-on clinical assessments including hemoglobin testing, lead screening, and biometric measurements (height, weight, growth tracking) for WIC participants, ensuring accurate data collection for nutritional risk evaluation",
+    ],
+  },
   {
     title: "AI/ML Fellow",
     company_name: "Break Through Tech",
